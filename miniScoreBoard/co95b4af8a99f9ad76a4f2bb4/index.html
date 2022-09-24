@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="scoreBoard">
+            <div class="container">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="home" id="home">
+                        0
+                    </div>
+                    <button onclick="hp1()">+1</button>
+                    <button onclick="hp2()">+2</button>
+                    <button onclick="hp3()">+3</button>
+                </div>
+                <div class="details">
+                    <h4>Period</h4>
+                    <p id="half">0</p>
+                    <button class="period" onclick="quarter()">+1</button>
+                <div class="hfoul">
+                    <h4>Foul</h4>
+                    <p id="hfoul">0</p>
+                    <button class="hbtn" onclick="homeFoul()">+1</button>
+                </div>
+                <div class="gfoul">
+                    <h4>Foul</h4>
+                    <p id="gfoul">0</p>
+                    <button class="gbtn" onclick="guestFoul()">+1</button>
+                </div>
+                </div>
+                <div>
+                <button class="endBtn" onclick="end()">E N D</button>
+                    <h3>GUEST</h3>
+                    <div class="guest" id="guest">
+                        0
+                    </div>
+                    <button onclick="gp1()">+1</button>
+                    <button onclick="gp2()">+2</button>
+                    <button onclick="gp3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
