@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+.product{
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+table th{
+    background-color: #efefef;
+}
+.tabs{
+    width: 30em;
+    margin: 0 auto;
+}
+.info, .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}
+.info, .form-container form{
+padding:20px;
+background-color: var(--white);
+box-shadow: var(--box-shadow);
+text-align: center;
+width: 500px;
+border-radius: 5px;
+}
+.info, .form-container form .box{
+width: 100%;
+border-radius: 5px;
+padding:12px 14px;
+font-size: 18px;
+color:var(--black);
+margin:10px 0;
+background-color: var(--light-bg);
+}
+.note{
+    height: 100px;
+    line-height: 500px;
+    text-align: center;
+}
+.form-container form p{
+    margin-top: 15px;
+    font-size: 20px;
+    color:var(--black);
+}
+
+.form-container form p a{
+    color:var(--red);
+}
+
+.form-container form p a:hover{
+    text-decoration: underline;
+}
+.ty{
+    margin: 100px;
+    margin-left: 5em;
+    text-align: center;
+    padding:.5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    color:var(--black);
+}
